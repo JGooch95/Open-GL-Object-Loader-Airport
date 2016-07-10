@@ -1,0 +1,9 @@
+tex images/FloorTexture.bmp | p
+o models/Skybox.obj         | t 0 0 0        | r 0 0 0    | s 2 2 2       | m 3 | tex images/SkyboxTexture.bmp       | Dtex t | Dn t | p
+o models/Runway.obj         | t 350 0 5      | r 0 90 0   | s 6 6 6       | m 1 | tex images/RunwayTexture.bmp       | Dtex t | Dn t | p
+o models/Airport.obj        | t 0 -1 300     | r 0 0 0    | s 6 6 6       | m 1 | tex images/AirportTexture.bmp      | Dtex t | Dn t | p
+o models/ControlTower.obj   | t 0 -1 650     | r 0 90 0   | s 8 8 8       | m 1 | tex images/ControlTowerTexture.bmp | Dtex t | Dn t | p
+o models/Hangar.obj         | t 0 -1 -120    | r 0 0 0    | s 8 8 8       | m 1 | tex images/HangarTexture.bmp       | Dtex t | Dn t | p
+o models/Hangar.obj         | t 0 -1 -440    | r 0 0 0    | s 8 8 8       | m 1 | tex images/HangarTexture.bmp       | Dtex t | Dn t | p
+o models/learjet.obj        | t 300 -1 -400  | r 0 -135 0 | s 15 15 15    | m 2 | tex images/learjet.bmp             | Dtex t | Dn t | p
+o models/P-51-Mustang.obj   | t 250 -1 -125  | r 0 90 0   | s 2 2 2       | m 2 | tex images/BodyTexture.bmp         | Dtex t | Dn t | p
